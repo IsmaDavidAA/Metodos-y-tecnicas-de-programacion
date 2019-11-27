@@ -1,0 +1,31 @@
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+public class Editor
+{
+    static Hashtable ht;
+    static String currString;
+    private Stack<String> pila;
+    static ArrayList<Jugador> jugadores;
+    public static void main(String arg[]){
+        leer(3);
+    }
+    
+    public static void leer(int categoriaTop){
+        ht=new Hashtable();
+        jugadores = new ArrayList<Jugador>();
+        try{
+            DataInputStream in = new DataInputStream(new BufferedInputStream(new FileInputStream(categoriaTop+"top10.txt")));
+            while((currString = in.readLine())!=null){
+                ht.put(new Integer(currString.hashCode()),currString);
+                jugadores.add(new Jugador(currString));
+                System.out.println(currString);
+            }
+        }
+        catch(IOException ioe){
+            System.out.println("IO exception");
+        }
+    }
+    
+    
+}

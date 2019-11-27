@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Editor
+comment1.params=
+comment1.target=Editor()
+comment2.params=
+comment2.target=java.util.PriorityQueue\ getJugadores()
+comment3.params=
+comment3.target=java.util.ArrayList\ getTopJugadores()
+comment4.params=categoriaTop
+comment4.target=void\ leer(int)
+comment5.params=categoriaTop
+comment5.target=void\ escribir(int)
+comment6.params=nuevoJugador
+comment6.target=void\ addJugador(Jugador)
+comment7.params=
+comment7.target=java.util.ArrayList\ getNombresJugadores()
+numComments=8

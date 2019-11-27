@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Icono
+comment1.params=nomImg
+comment1.target=Icono(java.lang.String)
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+numComments=3

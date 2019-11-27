@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Puzzle
+comment1.params=dificultad
+comment1.target=Puzzle(int)
+comment2.params=
+comment2.target=void\ leerImagen()
+numComments=3

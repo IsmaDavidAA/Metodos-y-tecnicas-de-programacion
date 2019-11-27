@@ -1,0 +1,26 @@
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.util.*;
+import javax.swing.*;
+import javax.swing.ImageIcon;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
+public class Informacion extends JPanel
+{
+    
+    private Image img;
+    public void paintComponent(Graphics g){
+        super.paint(g);
+        
+        try {
+            img = ImageIO.read(new File("C:\\Users\\david\\Pictures\\upb.PNG"));
+        } catch (IOException e) {
+            System.out.println("la imagen no se encuentra");
+        }
+        g.drawImage(img, 5, 5, null);
+        
+    }
+
+
+}

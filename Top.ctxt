@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Top
+comment1.params=cat
+comment1.target=Top(int)
+comment2.params=
+comment2.target=int\ getCat()
+comment3.params=
+comment3.target=void\ crearEtiquetas()
+comment4.params=nombre\ movimientos
+comment4.target=void\ generarTop(java.lang.String,\ int)
+numComments=5

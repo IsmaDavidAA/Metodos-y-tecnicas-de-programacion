@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Board
+comment1.params=dimension\ imagen
+comment1.target=Board(int,\ java.awt.image.BufferedImage)
+comment2.params=imagen
+comment2.target=void\ recortar(java.awt.image.BufferedImage)
+comment3.params=
+comment3.target=void\ desordenar()
+comment4.params=
+comment4.target=void\ actualizar()
+comment5.params=
+comment5.target=void\ remover()
+numComments=6

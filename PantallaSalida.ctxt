@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PantallaSalida
+comment1.params=nivel\ movimientos
+comment1.target=PantallaSalida(int,\ int)
+comment10.params=ae
+comment10.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment11.params=nivel
+comment11.target=boolean\ esValido(int)
+comment2.params=
+comment2.target=void\ iniciarComponentes()
+comment3.params=
+comment3.target=void\ crearPanel()
+comment4.params=
+comment4.target=void\ crearEtiquetas()
+comment5.params=
+comment5.target=void\ crearBotones()
+comment6.params=
+comment6.target=void\ cajaDeTexto()
+comment7.params=
+comment7.target=void\ eventoOyenteAccion()
+comment8.params=ae
+comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment9.params=
+comment9.target=void\ eventoOyenteAccion2()
+numComments=12
